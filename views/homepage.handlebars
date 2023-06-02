@@ -1,0 +1,9 @@
+<h1>Tech Blog</h1>
+
+{{#if posts}}
+{{#each posts}}
+{{> post}}
+{{/each}}
+{{else}}
+<p>No posts found.</p>
+{{/if}}
